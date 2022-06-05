@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:backgroundTint="@color/fundo_tela"
+    tools:context=".Cadastro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastro SocialTec"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/rowdies_bold"
+            android:textSize="35sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:text="Nome"
+            android:fontFamily="@font/rowdies"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/nome_usuario"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:hint="Gabriel"
+            android:inputType="text"
+            android:layout_gravity="center"
+            android:background="@drawable/border_editext"
+            />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:text="Sobrenome"
+            android:fontFamily="@font/rowdies"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/sobrenome"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:inputType="text"
+            android:hint="Fratucci dos Reis"
+            android:layout_gravity="center"
+            android:background="@drawable/border_editext"
+            />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:text="E-Mail Institucional"
+            android:fontFamily="@font/rowdies"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/txt_email_inst"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:inputType="text"
+            android:layout_gravity="center"
+            android:background="@drawable/border_editext"
+            android:hint="fatecat@fatec.sp.gov.br" />
+
+
+        <CheckBox
+            android:id="@+id/checkedCargo"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:text="Sou um funcionário da Fatec"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:fontFamily="@font/rowdies"
+            />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:text="Fatec"
+            android:fontFamily="@font/rowdies"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            />
+
+        <Spinner
+            android:id="@+id/spinner_fatec"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:background="@drawable/border_editext"
+            />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:text="Cargo"
+            android:fontFamily="@font/rowdies"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            />
+
+        <Spinner
+            android:id="@+id/spinner_cargo"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:background="@drawable/border_editext"
+            />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:text="Curso"
+            android:fontFamily="@font/rowdies"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            />
+
+        <Spinner
+            android:id="@+id/spinner_curso"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:background="@drawable/border_editext"
+            />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:text="Senha"
+            android:fontFamily="@font/rowdies"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/senha"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:background="@drawable/border_editext"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:text="Confirmar Senha"
+            android:fontFamily="@font/rowdies"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/conf_senha"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:background="@drawable/border_editext"
+            android:inputType="textPassword" />
+
+        <CheckBox
+            android:id="@+id/checkedTermos"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:text="Li e aceito os termos de uso"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:fontFamily="@font/rowdies"
+            />
+
+        <Button
+            android:id="@+id/btn_cadastrarUser"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/btn_azul"
+            android:fontFamily="@font/rowdies_bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="Cadastrar"
+            android:textSize="18sp"
+            android:layout_marginBottom="30dp" />
+
+    </LinearLayout>
+
+</ScrollView>
+

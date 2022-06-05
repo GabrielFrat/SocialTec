@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "339845209713",
+    "project_id": "socialtec-69004",
+    "storage_bucket": "socialtec-69004.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339845209713:android:a8388194bbafcf5e6305d0",
+        "android_client_info": {
+          "package_name": "com.example.socialtec_tcc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339845209713-381mt4n5ur4ta8op3sd7j964fkp59hf8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.socialtec_tcc",
+            "certificate_hash": "51fc48f7298935f918ac399f5a82c54e6976b181"
+          }
+        },
+        {
+          "client_id": "339845209713-5hgr6t7n1o4mdnrp58mn290h2dgcfcop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdLeq7iUXU-VXSbBfHQxWL5ybUbYCBL1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339845209713-5hgr6t7n1o4mdnrp58mn290h2dgcfcop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

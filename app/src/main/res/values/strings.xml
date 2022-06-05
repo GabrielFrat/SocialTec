@@ -1,0 +1,181 @@
+<resources>
+    <string name="app_name">SocialTec</string>
+    <string name="socialtec">SocialTec</string>
+    <string name="criar_conta">Criar Conta</string>
+    <string name="entrar">Entrar</string>
+    <string name="senha">Senha</string>
+    <string name="e_mail">E-mail</string>
+    <string name="txtContent">Muitos que vivem merecem a morte. E alguns que morrem merecem viver. Você pode dar-lhes a vida? Então não seja tão ávido para julgar e condenar alguém a morte. Pois mesmo os muitos sábios não conseguem ver os dois lados.</string>
+    <string name="Like" />
+
+    <string-array name="fatecs">
+        <item>Fatec Adamantina</item>
+        <item>Fatec Americana - Ministro Ralph Biasi</item>
+        <item>Fatec Araçatuba - Prof. Fernando Amaral de Almeida Prado</item>
+        <item>Fatec Araraquara</item>
+        <item>Fatec Araras</item>
+        <item>Fatec Assis</item>
+        <item>Fatec Barretos</item>
+        <item>Fatec Barueri - Padre Danilo José de Oliveira Ohl</item>
+        <item>Fatec Bauru</item>
+        <item>Fatec Bebedouro - Jorge Caram Sabbag</item>
+        <item>Fatec Botucatu</item>
+        <item>Fatec Bragança Paulista - Jornalista Omair Fagundes de Oliveira</item>
+        <item>Fatec Campinas</item>
+        <item>Fatec Capão Bonito</item>
+        <item>Fatec Carapicuíba</item>
+        <item>Fatec Catanduva</item>
+        <item>Fatec Cotia</item>
+        <item>Fatec Cruzeiro - Prof. Waldomiro May</item>
+        <item>Fatec Diadema - Luigi Papaiz</item>
+        <item>Fatec Ferraz de Vasconcelos</item>
+        <item>Fatec Franca - Dr. Thomaz Novelino</item>
+        <item>Fatec Franco da Rocha</item>
+        <item>Fatec Garça - Dep. Julio Julinho Marcondes de Moura</item>
+        <item>Fatec Guaratinguetá - Prof. João Mod</item>
+        <item>Fatec Guarulhos</item>
+        <item>Fatec Indaiatuba - Dr. Archimedes Lammoglia</item>
+        <item>Fatec Itapetininga - Prof. Antonio Belizandro Barbosa Rezende</item>
+        <item>Fatec Itapira - Ogari de Castro Pacheco</item>
+        <item>Fatec Itaquaquecetuba</item>
+        <item>Fatec Itatiba</item>
+        <item>Fatec Itu - Dom Amaury Castanho</item>
+        <item>Fatec Jaboticabal - Nilo de Stéfani</item>
+        <item>Fatec Jacareí- Prof. Francisco de Moura</item>
+        <item>Fatec Jales - Prof. José Camargo</item>
+        <item>Fatec Jahu</item>
+        <item>Fatec Jundiaí - Deputado Ary Fossen</item>
+        <item>Fatec Lins - Prof. Antonio Seabra</item>
+        <item>Fatec Marília - Estudante Rafael Almeida Camarinha</item>
+        <item>Fatec Matão</item>
+        <item>Fatec Mauá</item>
+        <item>Fatec Mococa</item>
+        <item>Fatec Mogi das Cruzes</item>
+        <item>Fatec Mogi Mirim - Arthur de Azevedo</item>
+        <item>Fatec Osasco - Pref. Hirant Sanazar</item>
+        <item>Fatec Ourinhos</item>
+        <item>Fatec Pindamonhangaba</item>
+        <item>Fatec Piracicaba - Dep. Roque Trevisan</item>
+        <item>Fatec Pompéia - Shunji Nishimura</item>
+        <item>Fatec Praia Grande</item>
+        <item>Fatec Presidente Prudente</item>
+        <item>Fatec Ribeirão Preto</item>
+        <item>Fatec Santana de Parnaíba</item>
+        <item>Fatec Santo André</item>
+        <item>Fatec Baixada Santista - Rubens Lara</item>
+        <item>Fatec São Bernardo do Campo - Adib Moisés Dib</item>
+        <item>Fatec São Caetano do Sul - Antonio Russo</item>
+        <item>Fatec São Carlos</item>
+        <item>Fatec São José do Rio Preto</item>
+        <item>Fatec São José dos Campos - Prof. Jessen Vidal</item>
+        <item>Fatec Ipiranga - Pastor Enéas Tognini</item>
+        <item>Fatec Itaquera - Prof. Miguel Reale</item>
+        <item>Fatec São Paulo</item>
+        <item>Fatec Sebrae</item>
+        <item>Fatec Tatuapé - Victor Civita</item>
+        <item>Fatec Zona Leste</item>
+        <item>Fatec Zona Sul - Dom Paulo Evaristo Arns</item>
+        <item>Fatec São Roque</item>
+        <item>Fatec São Sebastião</item>
+        <item>Fatec Sertãozinho - Dep. Waldyr Alceu Trigo</item>
+        <item>Fatec Sorocaba - José Crespo Gonzales</item>
+        <item>Fatec Sumaré (Região de Campinas)</item>
+        <item>Fatec Taquaritinga</item>
+        <item>Fatec Tatuí - Prof. Wilson Roberto Ribeiro de Camargo</item>
+        <item>Fatec Taubaté</item>
+    </string-array>
+
+    <string-array name="cursosFatec">
+        <item>Agroindústria</item>
+        <item>Agronegócio</item>
+        <item>Alimentos</item>
+        <item>Análise de Processos Agroindustriais</item>
+        <item>Análise e Desenvolvimento de Sistemas</item>
+        <item>Automação de Escritórios e Secretariado</item>
+        <item>Automação Industrial</item>
+        <item>Banco de Dados</item>
+        <item>Big Data no Agronegócio</item>
+        <item>Big Data para Negócios</item>
+        <item>Biocombustíveis</item>
+        <item>Ciência de Dados</item>
+        <item>Comércio Exterior</item>
+        <item>Construção Civil - Edifícios</item>
+        <item>Construção Civil - Movimento de Terra e Pavimentação</item>
+        <item>Construção de Edifícios</item>
+        <item>Construção Naval</item>
+        <item>Controle de Obras</item>
+        <item>Cosméticos</item>
+        <item>Desenvolvimento de Produtos Plásticos</item>
+        <item>Desenvolvimento de Software Multiplataforma</item>
+        <item>Design de Mídias Digitais</item>
+        <item>Design de Produto com Ênfase em Processos de Produção e Industrial</item>
+        <item>Eletrônica Automotiva</item>
+        <item>Eletrônica Industrial</item>
+        <item>Eventos</item>
+        <item>Fabricação Mecânica</item>
+        <item>Geoprocessamento</item>
+        <item>Gestão Ambiental</item>
+        <item>Gestão Comercial</item>
+        <item>Gestão da Produção Industrial</item>
+        <item>Gestão da Qualidade</item>
+        <item>Gestão da Tecnologia da Informação</item>
+        <item>Gestão de Energia e Eficiência Energética</item>
+        <item>Gestão de Negócios e Inovação</item>
+        <item>Gestão de Recursos Humanos</item>
+        <item>Gestão de Serviços</item>
+        <item>Gestão de Turismo</item>
+        <item>Gestão Empresarial</item>
+        <item>Gestão Financeira</item>
+        <item>Gestão Hospitalar</item>
+        <item>Gestão Portuária</item>
+        <item>Hidráulica e Saneamento Ambiental</item>
+        <item>Informática para Negócios</item>
+        <item>Instalações Elétricas</item>
+        <item>Jogos Digitais</item>
+        <item>Logística</item>
+        <item>Logística Aeroportuária</item>
+        <item>Manufatura Avançada</item>
+        <item>Manutenção de Aeronaves</item>
+        <item>Manutenção Industrial</item>
+        <item>Marketing</item>
+        <item>Materiais</item>
+        <item>Mecânica - Processos de Produção</item>
+        <item>Mecânica - Processos de Soldagem</item>
+        <item>Mecânica - Projetos</item>
+        <item>Mecânica Automobilística</item>
+        <item>Mecânica de Precisão</item>
+        <item>Mecanização em Agricultura de Precisão</item>
+        <item>Mecatrônica Industrial</item>
+        <item>Meio Ambiente e Recursos Hídricos</item>
+        <item>Microeletrônica</item>
+        <item>Polímeros</item>
+        <item>Processos Metalúrgicos</item>
+        <item>Processos Químicos</item>
+        <item>Produção Agropecuária</item>
+        <item>Produção Fonográfica</item>
+        <item>Produção Industrial</item>
+        <item>Produção Têxtil</item>
+        <item>Projetos de Estruturas Aeronáuticas</item>
+        <item>Projetos Mecânicos</item>
+        <item>Radiologia</item>
+        <item>Redes de Computadores</item>
+        <item>Refrigeração, Ventilação e Ar Condicionado</item>
+        <item>Secretariado</item>
+        <item>Segurança da Informação</item>
+        <item>Silvicultura</item>
+        <item>Sistemas Biomédicos</item>
+        <item>Sistemas Embarcados</item>
+        <item>Sistemas Navais</item>
+        <item>Sistemas para Internet</item>
+        <item>Soldagem</item>
+        <item>Têxtil e Moda</item>
+        <item>Transporte Terrestre</item>
+    </string-array>
+
+
+    <string-array name="cargos">
+        <item>Professor</item>
+        <item>Secretaria</item>
+        <item>Coordenação</item>
+    </string-array>
+</resources>

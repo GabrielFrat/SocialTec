@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/imgView_usuario"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/txtView_usuario"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toTopOf="@+id/imgView_usuario"
+        app:layout_constraintEnd_toStartOf="@+id/imgView_more"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imgView_usuario"
+        tools:text="Usuario A"/>
+
+
+    <ImageView
+        android:id="@+id/imgView_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintTop_toTopOf="@+id/txtView_usuario"
+        app:srcCompat="@drawable/ic_baseline_more_horiz_24"
+        />
+
+    <TextView
+        android:id="@+id/txtView_Content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/txtContent"
+        android:textColor="@color/black"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintStart_toStartOf="@id/imgView_usuario"
+        app:layout_constraintEnd_toEndOf="@+id/imgView_more"
+        app:layout_constraintTop_toBottomOf="@+id/imgView_usuario"
+        />
+
+    <ImageView
+        android:id="@+id/imageView_Post"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtView_Content"
+        tools:srcCompat="@tools:sample/backgrounds/scenic"
+        app:layout_constraintDimensionRatio="16:9"
+        />
+
+    <LinearLayout
+        android:id="@+id/post"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_Post"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp"
+        android:background="@color/cinza_claro"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtView_postTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            tools:text="Blog.Google.Com"/>
+
+        <TextView
+            android:id="@+id/txtView_subTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="5dp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            tools:text="Girafas passam maior parte do tempo remoendo suas emoções na selva selvagem da Africa e da Ziriguidumzao da bimboca"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="380dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/post" />
+
+    <LinearLayout
+        android:id="@+id/ttComents"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="200 Curtidas"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginStart="80dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="20 Comentários"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginStart="60dp"
+            />
+
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/viewTwo"
+        android:layout_width="380dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ttComents" />
+
+    <Button
+        android:id="@+id/btnLike"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@color/transparente"
+        android:text="Curtir"
+        android:drawableLeft="@drawable/ic_liked"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintEnd_toStartOf="@+id/btnComentar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewTwo" />
+
+    <Button
+        android:id="@+id/btnComentar"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:layout_marginEnd="20dp"
+        android:text="Comentar"
+        android:drawableLeft="@drawable/ic_comentarios"
+        android:textColor="@color/black"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:background="@color/transparente"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewTwo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

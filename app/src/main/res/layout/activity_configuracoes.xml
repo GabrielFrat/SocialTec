@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Configuracoes">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Configurações"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/rowdies_bold"
+        android:gravity="center"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/btnDeslogar"
+        android:layout_marginTop="50dp"
+        android:text="Deslogar"
+        android:backgroundTint="@color/btn_azul"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <Button
+        android:id="@+id/btnNovoEmail"
+        android:layout_marginTop="15dp"
+        android:text="Alterar E-Mail"
+        android:backgroundTint="@color/btn_azul"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <Button
+        android:id="@+id/btnSuporte"
+        android:layout_marginTop="15dp"
+        android:text="Suporte SocialTec"
+        android:backgroundTint="@color/btn_azul"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <Button
+        android:id="@+id/btnAlterarSenha"
+        android:layout_marginTop="15dp"
+        android:text="Redefinir Senha"
+        android:backgroundTint="@color/btn_azul"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <Button
+        android:id="@+id/btnExcluirUsuario"
+        android:layout_marginTop="15dp"
+        android:text="Excluir Usuário"
+        android:backgroundTint="@color/btn_azul"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
