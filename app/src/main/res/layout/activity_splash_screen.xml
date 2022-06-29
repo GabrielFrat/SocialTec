@@ -4,7 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/splash_screen"
+    android:background="@color/rebeccaPurple"
     tools:context=".SplashScreen">
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="90dp"
+        android:fontFamily="@font/rowdies_bold"
+        android:gravity="center"
+        android:text="SocialTec"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="350dp"
+        android:layout_height="90dp"
+        android:fontFamily="@font/rowdies_bold"
+        android:gravity="center"
+        android:text="By F@tecanos"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

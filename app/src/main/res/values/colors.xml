@@ -8,7 +8,15 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="fundo_tela">#FFDFE2EB</color>
-    <color name="btn_azul">#2F2F4D</color>
+    <color name="btn_azul">#3c096c</color>
     <color name="cinza_claro">#520B0A0A</color>
     <color name="transparente">#00FFFFFF</color>
+    <color name="azulCinza">#cbe1f0</color>
+    <color name="azulBebe">#82b1f8</color>
+    <color name="darkBlue">#10002b</color>
+    <color name="xiketic">#0B0510</color>
+    <color name="lavanderFloral">#AE8AD7</color>
+    <color name="platinum">#EBEBEB</color>
+    <color name="rebeccaPurple">#713C97</color>
+    <color name="purplePlum">#8B52B4</color>
 </resources>

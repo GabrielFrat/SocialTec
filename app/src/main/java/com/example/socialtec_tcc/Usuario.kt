@@ -78,7 +78,6 @@ class Usuario : Login() {
 
                                     //Toast.makeText(ctx, "Usuário Criado com Sucesso!", Toast.LENGTH_SHORT).show()
                                     Log.d(TAG, "Usuário Criado com Sucesso")
-
                                 } else {
                                     Toast.makeText(ctx, "Erro ao Cadastrar Usuário!", Toast.LENGTH_SHORT).show()
                                     Log.w(TAG, "Erro ao Cadastrar Login de Usuário", task.exception)
@@ -86,21 +85,4 @@ class Usuario : Login() {
                             }
             }
         }
-
-    fun excluirUsuario(){
-
-    }
-
-    fun editarUsuario(){
-
-    }
-
-
-    fun seguirUsuario() {
-
-    }
-
-    fun notificarUsuario() {
-
-    }
 }

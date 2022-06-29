@@ -17,12 +17,6 @@
         android:theme="@style/Theme.SocialTecTCC"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".CriarPublicacao"
-            android:exported="false" />
-        <activity
-            android:name=".criarPublicacao"
-            android:exported="false" />
-        <activity
             android:name=".RedefinirEmail"
             android:exported="false" />
         <activity

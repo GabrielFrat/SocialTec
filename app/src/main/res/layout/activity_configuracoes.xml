@@ -6,57 +6,131 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="10dp"
     tools:context=".Configuracoes">
 
-    <TextView
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:background="@color/rebeccaPurple"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Configurações"
-        android:layout_marginTop="15dp"
-        android:fontFamily="@font/rowdies_bold"
-        android:gravity="center"
-        android:textSize="30sp"
-        />
+        android:layout_height="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/btnDeslogar"
-        android:layout_marginTop="50dp"
-        android:text="Deslogar"
-        android:backgroundTint="@color/btn_azul"
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:text="SocialTec"
+            android:textColor="@color/platinum"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:fontFamily="@font/rowdies_bold"
+            />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/picUsuario"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="110dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="10dp"
+            app:shapeAppearance="@style/Circle"
+            app:strokeWidth="1dp"
+            app:strokeColor="@color/black"
+            android:background="@drawable/roundcorner"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/nomeUsuario"
         android:layout_width="match_parent"
-        android:layout_height="60dp" />
+        android:layout_height="30dp"
+        android:text="nomeUsuario"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:textSize="13sp"
+        android:fontFamily="@font/rowdies_bold" />
+
+    <TextView
+        android:id="@+id/uidUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Uid"
+        android:layout_marginStart="20dp"
+        android:textSize="13sp"
+        android:fontFamily="@font/rowdies_bold" />
 
     <Button
         android:id="@+id/btnNovoEmail"
-        android:layout_marginTop="15dp"
-        android:text="Alterar E-Mail"
-        android:backgroundTint="@color/btn_azul"
-        android:layout_width="match_parent"
-        android:layout_height="60dp" />
+        android:text="Migrar E-Mail"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/rowdies_bold"
+        android:drawableLeft="@drawable/emailicon"
+        android:layout_width="400dp"
+        android:backgroundTint="@color/lavanderFloral"
+        android:layout_gravity="center"
+        android:textColor="@color/platinum"
+        android:layout_height="70dp" />
 
     <Button
         android:id="@+id/btnSuporte"
-        android:layout_marginTop="15dp"
         android:text="Suporte SocialTec"
-        android:backgroundTint="@color/btn_azul"
-        android:layout_width="match_parent"
-        android:layout_height="60dp" />
+        android:backgroundTint="@color/lavanderFloral"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/rowdies_bold"
+        android:drawableLeft="@drawable/ic_baseline_live_help_24"
+        android:layout_width="400dp"
+        android:layout_gravity="center"
+        android:textColor="@color/platinum"
+        android:layout_height="70dp" />
 
     <Button
         android:id="@+id/btnAlterarSenha"
-        android:layout_marginTop="15dp"
         android:text="Redefinir Senha"
-        android:backgroundTint="@color/btn_azul"
-        android:layout_width="match_parent"
-        android:layout_height="60dp" />
+        android:backgroundTint="@color/lavanderFloral"
+        android:fontFamily="@font/rowdies_bold"
+        android:textColor="@color/platinum"
+        android:drawableLeft="@drawable/ic_baseline_passwod_key_24"
+        android:layout_marginTop="10dp"
+        android:layout_width="400dp"
+        android:layout_gravity="center"
+        android:layout_height="70dp" />
 
     <Button
         android:id="@+id/btnExcluirUsuario"
-        android:layout_marginTop="15dp"
         android:text="Excluir Usuário"
-        android:backgroundTint="@color/btn_azul"
-        android:layout_width="match_parent"
-        android:layout_height="60dp" />
+        android:backgroundTint="@color/lavanderFloral"
+        android:fontFamily="@font/rowdies_bold"
+        android:layout_width="400dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="@color/platinum"
+        android:drawableLeft="@drawable/ic_baseline_supervised_user_circle_24"
+        android:layout_height="70dp" />
 
+    <Button
+        android:id="@+id/btnEditarPerfil"
+        android:text="Editar Perfil"
+        android:backgroundTint="@color/lavanderFloral"
+        android:fontFamily="@font/rowdies_bold"
+        android:layout_marginTop="10dp"
+        android:layout_width="400dp"
+        android:layout_gravity="center"
+        android:textColor="@color/platinum"
+        android:drawableLeft="@drawable/ic_baseline_edit_24"
+        android:layout_height="70dp" />
+
+
+    <Button
+        android:id="@+id/btnDeslogar"
+        android:text="Deslogar"
+        android:backgroundTint="@color/lavanderFloral"
+        android:fontFamily="@font/rowdies_bold"
+        android:layout_width="400dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_baseline_login_24"
+        android:textColor="@color/platinum"
+        android:layout_height="70dp" />
 </androidx.appcompat.widget.LinearLayoutCompat>

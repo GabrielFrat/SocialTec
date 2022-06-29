@@ -39,7 +39,6 @@ class SplashScreen : AppCompatActivity() {
         }
     }
 
-
     fun Intent.change(){
         startActivity(this)
         finish()

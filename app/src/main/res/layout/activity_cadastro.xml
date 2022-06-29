@@ -14,14 +14,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Cadastro SocialTec"
-            android:layout_marginTop="20dp"
-            android:fontFamily="@font/rowdies_bold"
-            android:textSize="35sp"
-            android:gravity="center"/>
+
 
         <TextView
             android:layout_width="350dp"
@@ -200,7 +193,7 @@
             android:id="@+id/btn_cadastrarUser"
             android:layout_width="350dp"
             android:layout_height="70dp"
-            android:backgroundTint="@color/btn_azul"
+            android:backgroundTint="@color/rebeccaPurple"
             android:fontFamily="@font/rowdies_bold"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"

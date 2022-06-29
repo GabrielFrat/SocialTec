@@ -51,7 +51,7 @@ class CompPerfil : AppCompatActivity() {
 
     fun pegarImagem() {
         if(cameraPermission() == PERMISSION_GRANTED && externalStoragePermission() == PERMISSION_GRANTED){
-            selectImage()
+            selecionarImagem()
         }else{
             requestPermissions.launch(arrayOf(
                 android.Manifest.permission.READ_EXTERNAL_STORAGE,
@@ -71,7 +71,7 @@ class CompPerfil : AppCompatActivity() {
                 return@forEach
             }
             if(permissionGranted) {
-                selectImage()
+                selecionarImagem()
             }else{
                 Toast.makeText(this, "Sem Permissão", Toast.LENGTH_SHORT).show()
             }
@@ -85,7 +85,7 @@ class CompPerfil : AppCompatActivity() {
         private val IMAGE_PICK_CODE = 1000
     }
 
-    private fun selectImage() {
+    private fun selecionarImagem() {
         val it = Intent(Intent.ACTION_PICK)
         it.type = "image/*"
         startActivityForResult(it, IMAGE_PICK_CODE)
